@@ -1,0 +1,97 @@
+k9s:
+  # General K9s UI styling
+  body:
+    fgColor: "#cdd6f4"      # Text
+    bgColor: "#1e1e2e"      # Base
+    logoColor: "#cba6f7"    # Mauve
+
+  # Command prompt styling
+  prompt:
+    fgColor: "#cdd6f4"      # Text
+    bgColor: "#1e1e2e"      # Base
+    suggestColor: "#f5e0dc" # Rosewater
+
+  # Information view styling
+  info:
+    fgColor: "#cdd6f4"      # Text
+    sectionColor: "#89b4fa" # Blue
+
+  # Menu styling
+  menu:
+    fgColor: "#cdd6f4"      # Text
+    keyColor: "#89b4fa"     # Blue
+    numKeyColor: "#cba6f7"  # Mauve
+
+  # Views styling
+  views:
+    # Charts and graphs
+    charts:
+      bgColor: "#1e1e2e"    # Base
+      defaultDialColors:
+        - "#89b4fa"         # Blue
+        - "#94e2d5"         # Teal
+      defaultChartColors:
+        - "#89b4fa"         # Blue
+        - "#94e2d5"         # Teal
+
+    # Table styling
+    table:
+      fgColor: "#cdd6f4"    # Text
+      bgColor: "#1e1e2e"    # Base
+      cursorColor: "#f5e0dc" # Rosewater
+      markColor: "#fab387"  # Peach
+      header:
+        fgColor: "#cdd6f4"  # Text
+        bgColor: "#1e1e2e"  # Base
+        sorterColor: "#fab387" # Peach
+
+    # Xray view styling
+    xray:
+      fgColor: "#cdd6f4"    # Text
+      bgColor: "#1e1e2e"    # Base
+      cursorColor: "#f5e0dc" # Rosewater
+      graphicColor: "#fab387" # Peach
+      showIcons: false
+
+    # YAML info styling
+    yaml:
+      keyColor: "#89b4fa"   # Blue
+      colonColor: "#cdd6f4" # Text
+      valueColor: "#a6e3a1" # Green
+
+  # Frame styling
+  frame:
+    # Title styling
+    title:
+      fgColor: "#cdd6f4"    # Text
+      bgColor: "#1e1e2e"    # Base
+      highlightColor: "#89b4fa" # Blue
+      counterColor: "#fab387" # Peach
+      filterColor: "#f9e2af" # Yellow
+
+    # Border styling
+    border:
+      fgColor: "#89b4fa"    # Blue
+      focusColor: "#f5e0dc" # Rosewater
+
+    # Menu styling
+    menu:
+      fgColor: "#cdd6f4"    # Text
+      keyColor: "#89b4fa"   # Blue
+      numKeyColor: "#cba6f7" # Mauve
+
+    # Crumbs styling
+    crumbs:
+      fgColor: "#1e1e2e"    # Base
+      bgColor: "#cdd6f4"    # Text
+      activeColor: "#fab387" # Peach
+
+    # Status line styling
+    status:
+      newColor: "#a6e3a1"   # Green
+      modifyColor: "#f9e2af" # Yellow
+      addColor: "#94e2d5"   # Teal
+      errorColor: "#f38ba8"  # Red
+      highlightColor: "#89b4fa" # Blue
+      killColor: "#f38ba8"   # Red
+      completedColor: "#6c7086" # Overlay0
